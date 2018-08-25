@@ -1,4 +1,5 @@
 # keras-contrib : Keras community contributions
+__MAIN CHANGES:__ in `convolutional.py` normalize_data_format was changed to K.normalize_data_format because the current master branch in the original keras-contrib wasn't working with keras 2.2+
 
 [![Build Status](https://travis-ci.org/keras-team/keras-contrib.svg?branch=master)](https://travis-ci.org/keras-team/keras-contrib)
 
