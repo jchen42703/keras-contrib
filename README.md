@@ -1,11 +1,16 @@
 # keras-contrib : Keras community contributions
-__MAIN CHANGES:__ in `convolutional.py` normalize_data_format was changed to K.normalize_data_format because the current master branch in the original keras-contrib wasn't working with keras 2.2+
--> Note: It was addressed in multiple pull requests, but they have not been merged yet into the main repository (there were some build issues- only worked for Python 2.7, but in colab it works for both Python 2.7 and Python 3)
-This repository will be a separate fork allowing for easy installation on Google's Colaboratory, as editing package modules is not convenient. 
+__MAIN CHANGES:__ <br> 
+In `convolutional.py`, normalize_data_format was changed to K.normalize_data_format because the current master branch in the original keras-contrib wasn't working with keras 2.2+ <br>
+-> Note: It was addressed in multiple pull requests, but they have not been merged yet into the main repository (there were some build issues- only worked for Python 2.7, but in colab it works for both Python 2.7 and Python 3). <br>
+This repository serves as a separate fork allowing for easy installation on Google's Colaboratory, as editing package modules is not convenient. 
 
-Command to install:
+Command to install: <br>
 `! pip3 install git+https://github.com/jchen42703/keras-contrib.git`
 
+__For more information on the changes, please refer to these github issues:__ <br>
+* [#291](https://github.com/keras-team/keras-contrib/issues/291)
+* [#292](https://github.com/keras-team/keras-contrib/pull/292)
+* [#298](https://github.com/keras-team/keras-contrib/issues/298)
 ----
 
 [![Build Status](https://travis-ci.org/keras-team/keras-contrib.svg?branch=master)](https://travis-ci.org/keras-team/keras-contrib)
